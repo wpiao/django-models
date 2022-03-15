@@ -2,10 +2,6 @@
 
 ## Get started
 
-# Django CRUD
-
-## Get started
-
 1. Clone down the repo.
 2. Download .env file and add it under `tv_shows_project` folder.
 3. Run command `python3 -m venv .venv` and `source .venv/bin/activate` to setup virtual environment.
