@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+
+<ul>
+  {% for tvshow in tvshows_list %}
+  <li>
+    <a href="{% url 'tvshow_detail' tvshow.pk %}">{{ tvshow.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock content%}
